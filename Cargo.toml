@@ -1,0 +1,13 @@
+[package]
+name = "playground"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arrow2 = { version = "0.17.0", features = [
+  "io_parquet",
+  "io_parquet_compression",
+] }
+parquet = "38.0.0"
